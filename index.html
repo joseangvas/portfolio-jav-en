@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/estilos.css" />
+    <title>JAV Portfolio</title>
+  </head>
+
+  <body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <h1>- JAV -</h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >START</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a>
+                </li>
+                <li>
+                  <a href="#servicios" onclick="seleccionar(this)">SERVICES</a>
+                </li>
+                <li>
+                  <a href="#skills" onclick="seleccionar(this)">SKILLS</a>
+                </li>
+                <li>
+                  <a href="#portfolio" onclick="seleccionar(this)">BRIEFCASE</a>
+                </li>
+                <li>
+                  <a href="#contacto" onclick="seleccionar(this)">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="redes">
+              <a href="https://www.linkedin.com/in/josé-angel-vásquez-77a68926b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/channel/UCW5eDumIArhX3c0R_w2jBxg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://www.facebook.com/joseangvas" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/joseangvas/?hl=es" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">WELCOME</p>
+          <h2>I am <span>José Angel Vásquez</span>, Web Developer</h2>
+          <p class="descripcion">
+            I am a Full Stack Web Developer
+          </p>
+          <a href="#portfolio">GO TO PORTFOLIO</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+      <div class="contenedor-foto">
+        <img src="/img/mifoto.png" alt="" />
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">ABOUT ME</p>
+        <h2>Hello, I'm <span>José Vásquez</span></h2>
+        <h3>WEB DEVELOPER</h3>
+        <p>
+          My experience in the area of ​​programming Windows Desktop Systems has made it easier for me to learn Web Development and I currently feel very motivated and eager to learn new technologies every day in this fascinating world.
+        </p>
+        <p>
+          I am a proactive, committed and communicative person, which allows me to establish a solid collaboration with the members of a work team and other departments.
+        </p>
+        <p>
+          My problem-solving skills and ability to quickly adapt to various situations have been instrumental in achieving outstanding results in my professional career.
+        </p>
+        <p>
+          Additionally, my creative approach and meticulous organization allow me to approach challenges with a clear perspective and ensure efficient execution on each project.
+        </p>
+        <p>
+          I want to start working to develop what I have learned and continue learning new technologies and programming languages to climb this fascinating and important career in Web Development.
+        </p>
+        <p>
+          Blessings...
+        </p>
+        <a href="/docs/curriculum.html">Download CV</a>
+      </div>
+    </section>
+
+    <!-- SECCION  S E R V I C I O S -->
+    <section id="servicios">
+      <h3 class="titulo-seccion">MY SERVICES</h3>
+
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"> <i class="fa-solid fa-code"></i></span>
+          <h4>Web applications</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Systems</li>
+            <li>Data</li>
+            <li>Admon</li>
+          </ul>
+          <p>
+            Extensive Experience in the Development of Desktop Applications that makes it easier for me to create Web applications.
+          </p>
+        </div>
+
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+          <h4>Programming Javascript</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>DOM</li>
+            <li>React</li>
+            <li>Angular</li>
+          </ul>
+          <p>
+            Knowledge of Javascript Programming for the Creation of Dynamic and Functional Websites.
+          </p>
+        </div>
+
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-php"></i></span>
+          <h4>Programming PHP</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>POO</li>
+            <li>MVC</li>
+            <li>ADO</li>
+          </ul>
+          <p>
+            Knowledge to Apply the Most Advanced Programming Technologies and Structures in the Backend using PHP Language.
+          </p>
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-database"></i></span>
+          <h4>Databases</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>SQL</li>
+            <li>MySQL</li>
+            <li>MariaDB</li>
+          </ul>
+          <p>
+            Modeling and Creation of SQL Databases and their adaptability in Web Applications using Fetch API and JSON Files.
+          </p>
+        </div>
+
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-palette"></i></span>
+          <h4>User Experience</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Organization</li>
+            <li>Accessibility</li>
+            <li>Clarity</li>
+          </ul>
+          <p>
+            My Experience in Developing Desktop Systems in the Visual Language FoxPro and MySQL allow me to Create a Functional and Easy to Operate User Environment.
+          </p>
+        </div>
+
+        <div class="servicio">
+          <span class="icono"
+            ><i class="fa-solid fa-person-circle-question"></i></span>
+          <h4>Responsive Web Design</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Responsive</li>
+            <li>Graphic</li>
+            <li>THIS</li>
+          </ul>
+          <p>
+            Knowledge in Creating Responsive and Functional Websites on Any Available Electronic Device.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+      <h3>SKILLS</h3>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Html, Css & Sass</p>
+          <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="html"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Javascript</p>
+          <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="js"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Angular</p>
+          <span class="porcentaje">20%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="ang"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>React</p>
+          <span class="porcentaje">20%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="react"></div>
+        </div>
+      </div>
+ 
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Vue</p>
+          <span class="porcentaje">20%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="vue"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Node.js</p>
+          <span class="porcentaje">20%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="node"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Gulp</p>
+          <span class="porcentaje">90%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="gulp"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>POO, MVC & ADO</p>
+          <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="mvc"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>AJAX / Fetch API</p>
+          <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="fetch"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>PHP</p>
+          <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="php"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Python</p>
+          <span class="porcentaje">20%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="py"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>SQL, MySQL & MariaDB</p>
+          <span class="porcentaje">95%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="sql"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+      <h3 class="titulo-seccion">My PROJECTS</h3>
+
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://portafolio-udemy-jav.netlify.app/" target="_blank"><img  id="proy1" src="img/proyecto1.jpg" alt="" /></a>
+          <div class="info">
+            <h4>Udemy Course Portfolio </h4>
+            <p>HTML/CSS Web Design</p>
+            <a class="github" href="https://github.com/joseangvas/portafolio-udemy" target="_blank">Go to Github Repository</a>
+          </div>
+        </div>
+        
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://frontend-store-jav.netlify.app/" target="_blank"><img  id="proy2" src="img/proyecto2.jpg" alt="" /></a>
+          <div class="info">
+            <h4>Frontend Store - Flannel Catalog</h4>
+            <p>HTML/CSS Web Design</p>
+            <a class="github" href="https://github.com/joseangvas/frontendstore-udemy" target="_blank">Go to Github Repository</a>
+          </div>
+        </div>
+        
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://blogdecafejavp.netlify.app" target="_blank"><img id="proy3" src="img/proyecto3.jpg" alt="" /></a>
+          <div class="info">
+            <h4>Coffee Shop Blog - Courses and Recipes</h4>
+            <p>HTML/CSS/JS Web Design</p>
+            <a class="github" href="https://github.com/joseangvas/blogdecafe" target="_blank">Go to Github Repository</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://festival-de-musica-rockera.netlify.app" target="_blank"><img id="proy4" src="img/proyecto4.jpg" alt="" /></a>
+          <div class="info">
+            <h4>Rock Concert- Reservations</h4>
+            <p>HTML/CSS/JS/SASS/GULP Web Design</p>
+            <a class="github" href="https://github.com/joseangvas/festival-musica" target="_blank">Go to Github Repository</a>
+          </div>
+        </div>
+        
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img id="proy5" src="img/proyecto5.jpg" alt="" />
+          <div class="info">
+            <h4>Real Estate - Buy/Sell Real Estate</h4>
+            <p>Web Design in HTML/CSS/JS/POO/MVC/PHP/MySQL</p>
+            <a class="github" href="https://github.com/joseangvas/bienesraices_mvc" target="_blank">Go to Github Repository</a>
+          </div>
+        </div>
+        
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img id="proy6" src="img/proyecto6.jpg" alt="" />
+          <div class="info">
+            <h4>AppSalon - Beauty and Hair Salon</h4>
+            <p>Responsive Web Design Made in HTML/CSS/JS/POO/MVC/PHP/Fetch API/MySQL</p>
+            <a class="github" href="https://github.com/joseangvas/appsalon-mvc" target="_blank">Go to Github Repository</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img  id="proy7" src="img/proyecto8.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img  id="proy8" src="img/proyecto9.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img  id="proy9" src="img/proyecto10.jpg" alt="" />
+          <div class="info">
+            <h4>Descripcion Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+      <h3 class="titulo-seccion">Contact Me Now</h3>
+      <div class="contenedor-form">
+        <form id="form" action="">
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Full name *"
+              class="input-mitad"
+              name="nombre"
+            />
+            <input
+              type="email"
+              placeholder="Email address"
+              class="input-mitad"
+              name="correo"
+            />
+          </div>
+
+          <div class="fila">
+            <input type="text" placeholder="Issue..." class="input-full" name="tema"/>
+          </div>
+
+          <div class="fila">
+            <textarea
+              type="text"
+              cols="30"
+              rows="10"
+              placeholder="your message..."
+              class="input-full"
+              name="mensaje"
+            ></textarea>
+          </div>
+
+          <input type="submit" id="button" value="Send Message" class="btn-enviar" />
+        </form>
+      </div> -->
+    </section>
+    
+    <!-- SECCION FOOTER -->
+    <footer>
+      <p>José Angel Vásquez - 2023</p>
+      <div class="redes">
+        <a href="https://www.linkedin.com/in/josé-angel-vásquez-77a68926b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/channel/UCW5eDumIArhX3c0R_w2jBxg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.facebook.com/joseangvas" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/joseangvas/?hl=es" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+      </div>
+    </footer>
+    
+    <script src="/scripts/script.js"></script>
+
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">emailjs.init('VZOuTR1uafVhkk2T2')</script>
+
+    <script type="text/javascript" src="/scripts/correo.js"></script>
+  </body>
+</html>
