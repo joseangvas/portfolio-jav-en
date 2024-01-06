@@ -39,7 +39,7 @@ function efectoHabilidades() {
     document.getElementById("js").classList.add("barra-progreso2");
     document.getElementById("ang").classList.add("barra-progreso3");
     document.getElementById("react").classList.add("barra-progreso4");
-    document.getElementById("vue").classList.add("barra-progreso5");
+    document.getElementById("tys").classList.add("barra-progreso5");
     document.getElementById("node").classList.add("barra-progreso6");
     document.getElementById("gulp").classList.add("barra-progreso7");
     document.getElementById("mvc").classList.add("barra-progreso8");
@@ -47,5 +47,6 @@ function efectoHabilidades() {
     document.getElementById("php").classList.add("barra-progreso10");
     document.getElementById("py").classList.add("barra-progreso11");
     document.getElementById("sql").classList.add("barra-progreso12");
+    document.getElementById("astro").classList.add("barra-progreso13");
   }
 }

@@ -335,14 +335,14 @@ html {
 
 .contenedor-skills .skill .barra .barra-progreso1 {
   background-color: #fff;
-  width: 95%;
+  width: 100%;
   height: 6px;
   animation: progreso1 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2 {
   background-color: #fff;
-  width: 95%;
+  width: 100%;
   height: 6px;
   animation: progreso2 2s forwards;
 }
@@ -356,14 +356,14 @@ html {
 
 .contenedor-skills .skill .barra .barra-progreso4 {
   background-color: #fff;
-  width: 20%;
+  width: 70%;
   height: 6px;
   animation: progreso4 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso5 {
   background-color: #fff;
-  width: 20%;
+  width: 55%;
   height: 6px;
   animation: progreso5 2s forwards;
 }
@@ -377,28 +377,28 @@ html {
 
 .contenedor-skills .skill .barra .barra-progreso7 {
   background-color: #fff;
-  width: 90%;
+  width: 85%;
   height: 6px;
   animation: progreso7 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso8 {
   background-color: #fff;
-  width: 95%;
+  width: 90%;
   height: 6px;
   animation: progreso8 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso9 {
   background-color: #fff;
-  width: 95%;
+  width: 90%;
   height: 6px;
   animation: progreso9 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso10 {
   background-color: #fff;
-  width: 95%;
+  width: 100%;
   height: 6px;
   animation: progreso10 2s forwards;
 }
@@ -412,9 +412,16 @@ html {
 
 .contenedor-skills .skill .barra .barra-progreso12 {
   background-color: #fff;
-  width: 95%;
+  width: 100%;
   height: 6px;
   animation: progreso12 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso13 {
+  background-color: #fff;
+  width: 90%;
+  height: 6px;
+  animation: progreso13 2s forwards;
 }
 
 
@@ -423,7 +430,7 @@ html {
     width: 0;
   }
   100% {
-    width: 95%;
+    width: 100%;
   }
 }
 
@@ -432,7 +439,7 @@ html {
     width: 0;
   }
   100% {
-    width: 95%;
+    width: 100%;
   }
 }
 
@@ -450,7 +457,7 @@ html {
     width: 0;
   }
   100% {
-    width: 20%;
+    width: 70%;
   }
 }
 
@@ -459,7 +466,7 @@ html {
     width: 0;
   }
   100% {
-    width: 20%;
+    width: 55%;
   }
 }
 
@@ -468,7 +475,7 @@ html {
     width: 0;
   }
   100% {
-    width: 20%;
+    width: 45%;
   }
 }
 
@@ -477,7 +484,7 @@ html {
     width: 0;
   }
   100% {
-    width: 90%;
+    width: 85%;
   }
 }
 
@@ -486,7 +493,7 @@ html {
     width: 0;
   }
   100% {
-    width: 95%;
+    width: 90%;
   }
 }
 
@@ -495,7 +502,7 @@ html {
     width: 0;
   }
   100% {
-    width: 95%;
+    width: 90%;
   }
 }
 
@@ -504,7 +511,7 @@ html {
     width: 0;
   }
   100% {
-    width: 95%;
+    width: 100%;
   }
 }
 
@@ -522,7 +529,16 @@ html {
     width: 0;
   }
   100% {
-    width: 95%;
+    width: 100%;
+  }
+}
+
+@keyframes progreso13 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
   }
 }
 
